@@ -1,0 +1,85 @@
+html{
+    font-family: 'Bad Script', cursive;
+    font-size: 15pt;
+    background-image: linear-gradient(orange, red, cyan);
+}
+.meme {
+    height: 150px;
+    width: 190px;
+    border: 5px gold solid;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+.yes{
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+.text_1{
+    position: absolute;
+    font-size: 11pt;
+    font-weight: 900;
+    transform:rotateZ(-15deg);
+    top: 543px;
+    left: 170px;
+    font-family: 'Caveat', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Tektur', cursive;
+;
+background-image: linear-gradient(20deg, #ff0000, orange, #ff00f3, #0033ff, #8C1EFF, #ff00c4); 
+background-size: 500%;
+color: transparent;
+-webkit-background-clip: text;
+animation: animate 10s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 500%
+    }
+}
+#email{
+    background: linear-gradient(60deg, black 95%, gold 3% );
+/*background-image: linear-gradient(20 deg, red, pink, orange, blue); */
+font-family: 'Pangolin', cursive;
+background-size: 500%;
+color: transparent;
+-webkit-background-clip: text;
+animation: move 25s linear infinite;
+}
+@keyframes move{
+    0%{
+        background-position: 500%;
+        left: 0;
+    }
+    100%{
+        background-position: 0%
+    }
+}
+#client {
+    position: absolute;
+    top: 186px;
+    left: 140px;
+    font-size: 13pt;
+    color: #FADED3;
+    font-weight:100;
+    line-height: 30px;
+    font-family: 'Bad Script', cursive;
+    
+}
+#cena{
+    position: absolute;
+    top: 505px;
+    left: 334px;
+    transform: rotate(-15deg);
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 12pt;
+}
